@@ -1,0 +1,13 @@
+node_modules/
+.pnpm-store/
+dist/
+.agents/
+.agent/
+.codex/
+test-results/
+playwright-report/
+coverage/
+output/
+tmp/
+*.log
+*.tsbuildinfo

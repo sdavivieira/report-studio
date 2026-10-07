@@ -1,0 +1,10 @@
+node_modules
+.pnpm-store
+dist
+pnpm-lock.yaml
+coverage
+playwright-report
+test-results
+tmp
+output
+PROMPT.md

@@ -1,0 +1,1220 @@
+{
+  "version": 1,
+  "configuration": {
+    "pageCount": 5,
+    "title": "RELATÓRIO DE VENDAS DE COMPUTADORES",
+    "subtitle": "Período de referência: Setembro de 2026",
+    "showDate": true,
+    "showTime": false,
+    "footerText": "Relatório demonstrativo — dados fictícios",
+    "showPageNumbers": true,
+    "orientation": "portrait",
+    "marginMm": 12,
+    "colors": {
+      "background": "#ffffff",
+      "title": "#333333",
+      "subtitle": "#666666",
+      "tableHeader": "#b93f3c",
+      "tableHeaderText": "#ffffff",
+      "cell": "#ffffff",
+      "cellText": "#333333",
+      "border": "#d8d8d8"
+    },
+    "titleFontSize": 30,
+    "subtitleFontSize": 12,
+    "bodyFontSize": 8,
+    "titleAlignment": "left",
+    "rowHeightMm": 7,
+    "cellPaddingMm": 1.5,
+    "columns": [
+      {
+        "sourceId": "column-0",
+        "visible": true,
+        "order": 0,
+        "label": "Produto",
+        "widthMm": 42,
+        "alignment": "left",
+        "numberFormat": "automatic",
+        "dateFormat": "automatic"
+      },
+      {
+        "sourceId": "column-1",
+        "visible": true,
+        "order": 1,
+        "label": "Categoria",
+        "widthMm": 27,
+        "alignment": "left",
+        "numberFormat": "automatic",
+        "dateFormat": "automatic"
+      },
+      {
+        "sourceId": "column-2",
+        "visible": true,
+        "order": 2,
+        "label": "Quantidade",
+        "widthMm": 18,
+        "alignment": "right",
+        "numberFormat": "integer",
+        "dateFormat": "automatic"
+      },
+      {
+        "sourceId": "column-3",
+        "visible": true,
+        "order": 3,
+        "label": "Preço de venda",
+        "widthMm": 25,
+        "alignment": "right",
+        "numberFormat": "currency",
+        "dateFormat": "automatic"
+      },
+      {
+        "sourceId": "column-4",
+        "visible": true,
+        "order": 4,
+        "label": "Receita",
+        "widthMm": 24,
+        "alignment": "right",
+        "numberFormat": "currency",
+        "dateFormat": "automatic"
+      },
+      {
+        "sourceId": "column-5",
+        "visible": true,
+        "order": 5,
+        "label": "Custo total",
+        "widthMm": 24,
+        "alignment": "right",
+        "numberFormat": "currency",
+        "dateFormat": "automatic"
+      },
+      {
+        "sourceId": "column-6",
+        "visible": true,
+        "order": 6,
+        "label": "Lucro",
+        "widthMm": 24,
+        "alignment": "right",
+        "numberFormat": "currency",
+        "dateFormat": "automatic"
+      },
+      {
+        "sourceId": "column-7",
+        "visible": true,
+        "order": 7,
+        "label": "Margem",
+        "widthMm": 18,
+        "alignment": "right",
+        "numberFormat": "percentage",
+        "dateFormat": "automatic"
+      }
+    ]
+  },
+  "elements": [
+    {
+      "id": "title",
+      "type": "title",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.075
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.11
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "fontSize": 30,
+        "alignment": "left",
+        "bold": true
+      },
+      "pageIndex": 0,
+      "repeatOnEveryPage": false
+    },
+    {
+      "id": "subtitle",
+      "type": "subtitle",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.19
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.045
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#666666",
+        "fontSize": 12,
+        "alignment": "left"
+      },
+      "pageIndex": 0,
+      "repeatOnEveryPage": false
+    },
+    {
+      "id": "date",
+      "type": "date",
+      "visible": true,
+      "position": {
+        "x": 0.7,
+        "y": 0.035
+      },
+      "size": {
+        "width": 0.24,
+        "height": 0.035
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#666666",
+        "fontSize": 8,
+        "alignment": "right"
+      },
+      "pageIndex": 0,
+      "repeatOnEveryPage": false
+    },
+    {
+      "id": "table",
+      "type": "table",
+      "visible": false,
+      "position": {
+        "x": 0.06,
+        "y": 0.25
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.58
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "fontSize": 9,
+        "alignment": "left"
+      },
+      "pageIndex": 0,
+      "repeatOnEveryPage": false
+    },
+    {
+      "id": "image",
+      "type": "image",
+      "visible": false,
+      "position": {
+        "x": 0.78,
+        "y": 0.08
+      },
+      "size": {
+        "width": 0.15,
+        "height": 0.1
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "fontSize": 9,
+        "alignment": "left"
+      },
+      "pageIndex": 0,
+      "repeatOnEveryPage": false
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.955
+      },
+      "size": {
+        "width": 0.7,
+        "height": 0.025
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#666666",
+        "fontSize": 7,
+        "alignment": "left"
+      },
+      "pageIndex": 0,
+      "repeatOnEveryPage": true
+    },
+    {
+      "id": "pageNumber",
+      "type": "pageNumber",
+      "visible": true,
+      "position": {
+        "x": 0.78,
+        "y": 0.955
+      },
+      "size": {
+        "width": 0.16,
+        "height": 0.025
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#666666",
+        "fontSize": 7,
+        "alignment": "right"
+      },
+      "pageIndex": 0,
+      "repeatOnEveryPage": true
+    },
+    {
+      "id": "cover-company",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.03
+      },
+      "size": {
+        "width": 0.58,
+        "height": 0.035
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "fontSize": 10,
+        "alignment": "left",
+        "bold": true
+      },
+      "pageIndex": 0,
+      "repeatOnEveryPage": false,
+      "content": "TECHNOVA COMÉRCIO DE INFORMÁTICA LTDA."
+    },
+    {
+      "id": "cover-info",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.27
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.1
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "fontSize": 10,
+        "alignment": "left",
+        "backgroundColor": "#f0f0f0"
+      },
+      "pageIndex": 0,
+      "repeatOnEveryPage": false,
+      "content": "Responsável: Área Comercial e Controladoria\nTipo: Relatório gerencial demonstrativo\nEmissão: 04/10/2026"
+    },
+    {
+      "id": "cover-summary-title",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.41
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.04
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "fontSize": 14,
+        "alignment": "left",
+        "bold": true
+      },
+      "pageIndex": 0,
+      "repeatOnEveryPage": false,
+      "content": "RESUMO DO DOCUMENTO"
+    },
+    {
+      "id": "cover-summary",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.46
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.105
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "fontSize": 10,
+        "alignment": "left"
+      },
+      "pageIndex": 0,
+      "repeatOnEveryPage": false,
+      "content": "Consolidação demonstrativa das vendas de computadores, com faturamento, custos, lucro bruto, margem, desempenho por produto e distribuição por categoria. Todos os valores e nomes são fictícios."
+    },
+    {
+      "id": "cover-revenue",
+      "type": "summary",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.62
+      },
+      "size": {
+        "width": 0.205,
+        "height": 0.075
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#ffffff",
+        "backgroundColor": "#b93f3c",
+        "fontSize": 10,
+        "alignment": "center",
+        "bold": true
+      },
+      "pageIndex": 0,
+      "repeatOnEveryPage": false,
+      "summary": {
+        "label": "Faturamento",
+        "sourceId": "column-4",
+        "operation": "sum"
+      }
+    },
+    {
+      "id": "cover-quantity",
+      "type": "summary",
+      "visible": true,
+      "position": {
+        "x": 0.285,
+        "y": 0.62
+      },
+      "size": {
+        "width": 0.205,
+        "height": 0.075
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#ffffff",
+        "backgroundColor": "#b93f3c",
+        "fontSize": 10,
+        "alignment": "center",
+        "bold": true
+      },
+      "pageIndex": 0,
+      "repeatOnEveryPage": false,
+      "summary": {
+        "label": "Unidades",
+        "sourceId": "column-2",
+        "operation": "sum"
+      }
+    },
+    {
+      "id": "cover-profit",
+      "type": "summary",
+      "visible": true,
+      "position": {
+        "x": 0.51,
+        "y": 0.62
+      },
+      "size": {
+        "width": 0.205,
+        "height": 0.075
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#ffffff",
+        "backgroundColor": "#b93f3c",
+        "fontSize": 10,
+        "alignment": "center",
+        "bold": true
+      },
+      "pageIndex": 0,
+      "repeatOnEveryPage": false,
+      "summary": {
+        "label": "Lucro bruto",
+        "sourceId": "column-6",
+        "operation": "sum"
+      }
+    },
+    {
+      "id": "cover-margin",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.735,
+        "y": 0.62
+      },
+      "size": {
+        "width": 0.205,
+        "height": 0.075
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#ffffff",
+        "fontSize": 10,
+        "alignment": "center",
+        "backgroundColor": "#b93f3c",
+        "bold": true
+      },
+      "pageIndex": 0,
+      "repeatOnEveryPage": false,
+      "content": "Margem bruta: 26,6%"
+    },
+    {
+      "id": "cover-note",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.82
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.04
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#b93f3c",
+        "fontSize": 9,
+        "alignment": "center",
+        "bold": true
+      },
+      "pageIndex": 0,
+      "repeatOnEveryPage": false,
+      "content": "DOCUMENTO DEMONSTRATIVO — NÃO UTILIZAR PARA FINS FISCAIS OU CONTÁBEIS."
+    },
+    {
+      "id": "executive-title",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.055
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.055
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "fontSize": 19,
+        "alignment": "left",
+        "bold": true
+      },
+      "pageIndex": 1,
+      "repeatOnEveryPage": false,
+      "content": "1. RESUMO EXECUTIVO"
+    },
+    {
+      "id": "executive-copy",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.12
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.095
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "fontSize": 10,
+        "alignment": "left"
+      },
+      "pageIndex": 1,
+      "repeatOnEveryPage": false,
+      "content": "No período analisado foram comercializadas 89 unidades, gerando faturamento bruto de R$ 440.421,00. O custo consolidado foi de R$ 323.340,00, resultando em lucro bruto de R$ 117.081,00 e margem aproximada de 26,6%."
+    },
+    {
+      "id": "exec-revenue",
+      "type": "summary",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.235
+      },
+      "size": {
+        "width": 0.205,
+        "height": 0.075
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#ffffff",
+        "backgroundColor": "#b93f3c",
+        "fontSize": 10,
+        "alignment": "center",
+        "bold": true
+      },
+      "pageIndex": 1,
+      "repeatOnEveryPage": false,
+      "summary": {
+        "label": "Faturamento",
+        "sourceId": "column-4",
+        "operation": "sum"
+      }
+    },
+    {
+      "id": "exec-quantity",
+      "type": "summary",
+      "visible": true,
+      "position": {
+        "x": 0.285,
+        "y": 0.235
+      },
+      "size": {
+        "width": 0.205,
+        "height": 0.075
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#ffffff",
+        "backgroundColor": "#b93f3c",
+        "fontSize": 10,
+        "alignment": "center",
+        "bold": true
+      },
+      "pageIndex": 1,
+      "repeatOnEveryPage": false,
+      "summary": {
+        "label": "Unidades",
+        "sourceId": "column-2",
+        "operation": "sum"
+      }
+    },
+    {
+      "id": "exec-profit",
+      "type": "summary",
+      "visible": true,
+      "position": {
+        "x": 0.51,
+        "y": 0.235
+      },
+      "size": {
+        "width": 0.205,
+        "height": 0.075
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#ffffff",
+        "backgroundColor": "#b93f3c",
+        "fontSize": 10,
+        "alignment": "center",
+        "bold": true
+      },
+      "pageIndex": 1,
+      "repeatOnEveryPage": false,
+      "summary": {
+        "label": "Lucro bruto",
+        "sourceId": "column-6",
+        "operation": "sum"
+      }
+    },
+    {
+      "id": "exec-margin",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.735,
+        "y": 0.235
+      },
+      "size": {
+        "width": 0.205,
+        "height": 0.075
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#ffffff",
+        "fontSize": 10,
+        "alignment": "center",
+        "backgroundColor": "#b93f3c",
+        "bold": true
+      },
+      "pageIndex": 1,
+      "repeatOnEveryPage": false,
+      "content": "Margem bruta: 26,6%"
+    },
+    {
+      "id": "revenue-chart",
+      "type": "chart",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.35
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.32
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "backgroundColor": "#ffffff",
+        "fontSize": 9
+      },
+      "pageIndex": 1,
+      "repeatOnEveryPage": false,
+      "chart": {
+        "title": "Faturamento por produto",
+        "chartType": "bar",
+        "categorySourceId": "column-0",
+        "valueSourceId": "column-4",
+        "aggregation": "sum",
+        "maxItems": 9
+      }
+    },
+    {
+      "id": "management-reading",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.72
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.13
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "fontSize": 10,
+        "alignment": "left",
+        "backgroundColor": "#f0f0f0",
+        "bold": true
+      },
+      "pageIndex": 1,
+      "repeatOnEveryPage": false,
+      "content": "LEITURA GERENCIAL\nOs produtos de maior valor agregado puxaram o faturamento mesmo com menor volume. As linhas de notebook apresentaram maior recorrência e sustentaram o volume de vendas."
+    },
+    {
+      "id": "detail-title",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.055
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.055
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "fontSize": 19,
+        "alignment": "left",
+        "bold": true
+      },
+      "pageIndex": 2,
+      "repeatOnEveryPage": false,
+      "content": "2. DETALHAMENTO DAS VENDAS"
+    },
+    {
+      "id": "detail-copy",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.115
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.04
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "fontSize": 9,
+        "alignment": "left"
+      },
+      "pageIndex": 2,
+      "repeatOnEveryPage": false,
+      "content": "Quantidade, receita, custo estimado e lucro bruto de cada produto."
+    },
+    {
+      "id": "detail-table",
+      "type": "dataTable",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.17
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.56
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "backgroundColor": "#ffffff",
+        "fontSize": 7
+      },
+      "pageIndex": 2,
+      "repeatOnEveryPage": false,
+      "dataTable": {
+        "title": "Vendas por produto",
+        "sourceIds": [
+          "column-0",
+          "column-1",
+          "column-2",
+          "column-4",
+          "column-5",
+          "column-6"
+        ],
+        "sortSourceId": "column-4",
+        "sortDirection": "descending",
+        "limit": 9,
+        "showRank": false,
+        "showTotals": true
+      }
+    },
+    {
+      "id": "detail-revenue",
+      "type": "summary",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.77
+      },
+      "size": {
+        "width": 0.205,
+        "height": 0.075
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#ffffff",
+        "backgroundColor": "#b93f3c",
+        "fontSize": 10,
+        "alignment": "center",
+        "bold": true
+      },
+      "pageIndex": 2,
+      "repeatOnEveryPage": false,
+      "summary": {
+        "label": "Receita total",
+        "sourceId": "column-4",
+        "operation": "sum"
+      }
+    },
+    {
+      "id": "detail-cost",
+      "type": "summary",
+      "visible": true,
+      "position": {
+        "x": 0.285,
+        "y": 0.77
+      },
+      "size": {
+        "width": 0.205,
+        "height": 0.075
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#ffffff",
+        "backgroundColor": "#b93f3c",
+        "fontSize": 10,
+        "alignment": "center",
+        "bold": true
+      },
+      "pageIndex": 2,
+      "repeatOnEveryPage": false,
+      "summary": {
+        "label": "Custo total",
+        "sourceId": "column-5",
+        "operation": "sum"
+      }
+    },
+    {
+      "id": "detail-profit",
+      "type": "summary",
+      "visible": true,
+      "position": {
+        "x": 0.51,
+        "y": 0.77
+      },
+      "size": {
+        "width": 0.205,
+        "height": 0.075
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#ffffff",
+        "backgroundColor": "#b93f3c",
+        "fontSize": 10,
+        "alignment": "center",
+        "bold": true
+      },
+      "pageIndex": 2,
+      "repeatOnEveryPage": false,
+      "summary": {
+        "label": "Lucro total",
+        "sourceId": "column-6",
+        "operation": "sum"
+      }
+    },
+    {
+      "id": "detail-units",
+      "type": "summary",
+      "visible": true,
+      "position": {
+        "x": 0.735,
+        "y": 0.77
+      },
+      "size": {
+        "width": 0.205,
+        "height": 0.075
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#ffffff",
+        "backgroundColor": "#b93f3c",
+        "fontSize": 10,
+        "alignment": "center",
+        "bold": true
+      },
+      "pageIndex": 2,
+      "repeatOnEveryPage": false,
+      "summary": {
+        "label": "Unidades",
+        "sourceId": "column-2",
+        "operation": "sum"
+      }
+    },
+    {
+      "id": "mix-title",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.055
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.055
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "fontSize": 19,
+        "alignment": "left",
+        "bold": true
+      },
+      "pageIndex": 3,
+      "repeatOnEveryPage": false,
+      "content": "3. MIX DE PRODUTOS E RANKING"
+    },
+    {
+      "id": "mix-chart",
+      "type": "chart",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.14
+      },
+      "size": {
+        "width": 0.38,
+        "height": 0.34
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "backgroundColor": "#ffffff",
+        "fontSize": 8
+      },
+      "pageIndex": 3,
+      "repeatOnEveryPage": false,
+      "chart": {
+        "title": "Participação por categoria",
+        "chartType": "pie",
+        "categorySourceId": "column-1",
+        "valueSourceId": "column-4",
+        "aggregation": "sum",
+        "maxItems": 8
+      }
+    },
+    {
+      "id": "ranking-table",
+      "type": "dataTable",
+      "visible": true,
+      "position": {
+        "x": 0.47,
+        "y": 0.14
+      },
+      "size": {
+        "width": 0.47,
+        "height": 0.5
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "backgroundColor": "#ffffff",
+        "fontSize": 7
+      },
+      "pageIndex": 3,
+      "repeatOnEveryPage": false,
+      "dataTable": {
+        "title": "Ranking por faturamento",
+        "sourceIds": ["column-0", "column-4", "column-2", "column-6"],
+        "sortSourceId": "column-4",
+        "sortDirection": "descending",
+        "limit": 9,
+        "showRank": true,
+        "showTotals": false
+      }
+    },
+    {
+      "id": "highlights",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.69
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.17
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "fontSize": 10,
+        "alignment": "left",
+        "backgroundColor": "#f0f0f0",
+        "bold": true
+      },
+      "pageIndex": 3,
+      "repeatOnEveryPage": false,
+      "content": "DESTAQUES\n• Maior faturamento: Notebook Pro X14.\n• Maior preço unitário: Workstation Creator.\n• Maior volume: Notebook Pro X14, com 18 unidades.\n• Oportunidade: ampliar kits, garantias e acessórios de maior margem."
+    },
+    {
+      "id": "closing-title",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.055
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.06
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "fontSize": 18,
+        "alignment": "left",
+        "bold": true
+      },
+      "pageIndex": 4,
+      "repeatOnEveryPage": false,
+      "content": "4. FECHAMENTO FINANCEIRO E RECOMENDAÇÕES"
+    },
+    {
+      "id": "closing-revenue",
+      "type": "summary",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.15
+      },
+      "size": {
+        "width": 0.205,
+        "height": 0.075
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#ffffff",
+        "backgroundColor": "#b93f3c",
+        "fontSize": 10,
+        "alignment": "center",
+        "bold": true
+      },
+      "pageIndex": 4,
+      "repeatOnEveryPage": false,
+      "summary": {
+        "label": "Receita bruta",
+        "sourceId": "column-4",
+        "operation": "sum"
+      }
+    },
+    {
+      "id": "closing-cost",
+      "type": "summary",
+      "visible": true,
+      "position": {
+        "x": 0.285,
+        "y": 0.15
+      },
+      "size": {
+        "width": 0.205,
+        "height": 0.075
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#ffffff",
+        "backgroundColor": "#b93f3c",
+        "fontSize": 10,
+        "alignment": "center",
+        "bold": true
+      },
+      "pageIndex": 4,
+      "repeatOnEveryPage": false,
+      "summary": {
+        "label": "Custo",
+        "sourceId": "column-5",
+        "operation": "sum"
+      }
+    },
+    {
+      "id": "closing-profit",
+      "type": "summary",
+      "visible": true,
+      "position": {
+        "x": 0.51,
+        "y": 0.15
+      },
+      "size": {
+        "width": 0.205,
+        "height": 0.075
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#ffffff",
+        "backgroundColor": "#b93f3c",
+        "fontSize": 10,
+        "alignment": "center",
+        "bold": true
+      },
+      "pageIndex": 4,
+      "repeatOnEveryPage": false,
+      "summary": {
+        "label": "Lucro bruto",
+        "sourceId": "column-6",
+        "operation": "sum"
+      }
+    },
+    {
+      "id": "closing-margin",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.735,
+        "y": 0.15
+      },
+      "size": {
+        "width": 0.205,
+        "height": 0.075
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#ffffff",
+        "fontSize": 10,
+        "alignment": "center",
+        "backgroundColor": "#b93f3c",
+        "bold": true
+      },
+      "pageIndex": 4,
+      "repeatOnEveryPage": false,
+      "content": "Margem bruta: 26,6%"
+    },
+    {
+      "id": "profit-formula",
+      "type": "formula",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.25
+      },
+      "size": {
+        "width": 0.42,
+        "height": 0.065
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "backgroundColor": "#f0f0f0",
+        "fontSize": 11,
+        "alignment": "left",
+        "bold": true
+      },
+      "pageIndex": 4,
+      "repeatOnEveryPage": false,
+      "formula": {
+        "label": "Receita menos custo",
+        "leftSourceId": "column-4",
+        "rightSourceId": "column-5",
+        "operator": "subtract",
+        "aggregation": "sum"
+      }
+    },
+    {
+      "id": "recommendations",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.35
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.25
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "fontSize": 10,
+        "alignment": "left",
+        "bold": true
+      },
+      "pageIndex": 4,
+      "repeatOnEveryPage": false,
+      "content": "RECOMENDAÇÕES GERENCIAIS\n1. Priorizar produtos com boa combinação de margem e volume.\n2. Criar ofertas com monitor, periféricos e garantia estendida.\n3. Acompanhar margem por canal para identificar descontos excessivos.\n4. Definir estoque mínimo com base no giro e prazo de reposição.\n5. Monitorar mensalmente faturamento, custo, lucro, margem e ticket médio."
+    },
+    {
+      "id": "methodology",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.66
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.15
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#333333",
+        "fontSize": 9,
+        "alignment": "left",
+        "backgroundColor": "#f0f0f0"
+      },
+      "pageIndex": 4,
+      "repeatOnEveryPage": false,
+      "content": "OBSERVAÇÕES METODOLÓGICAS\nO lucro apresentado é bruto e corresponde à diferença entre receita e custo dos equipamentos. Impostos, fretes, comissões, taxas e outras despesas operacionais não foram considerados."
+    },
+    {
+      "id": "report-end",
+      "type": "customText",
+      "visible": true,
+      "position": {
+        "x": 0.06,
+        "y": 0.86
+      },
+      "size": {
+        "width": 0.88,
+        "height": 0.04
+      },
+      "keepAspectRatio": false,
+      "style": {
+        "color": "#b93f3c",
+        "fontSize": 10,
+        "alignment": "center",
+        "bold": true
+      },
+      "pageIndex": 4,
+      "repeatOnEveryPage": false,
+      "content": "FIM DO RELATÓRIO"
+    }
+  ]
+}

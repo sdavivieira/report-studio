@@ -1,0 +1,21 @@
+:root {
+  --color-ink: #253c36;
+  --color-muted: #60706a;
+  --color-accent: #234e45;
+  --color-page: #fbfaf6;
+  --color-surface: #fff;
+  --color-border: #dedfd7;
+  --color-soft: #edf1e9;
+  --font-body: 'Segoe UI', system-ui, sans-serif;
+  --font-editorial: Georgia, 'Times New Roman', serif;
+  --radius-small: 6px;
+  --radius-medium: 12px;
+  --shadow-paper: 0 18px 40px #263c3214, 0 2px 8px #263c3208;
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --content-width: 1400px;
+  --focus-ring: 2px solid #386e60;
+}
